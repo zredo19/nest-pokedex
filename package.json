@@ -1,15 +1,14 @@
 {
   "name": "pokedex",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
-  "main": "index.js",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "node index.js",
+    "start": "node dist/main",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "nest start",
@@ -35,8 +34,7 @@
     "joi": "^17.13.3",
     "mongoose": "^8.16.0",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1",
-    "file-type": "^21.0.0"
+    "rxjs": "^7.8.1"
   },
   "engines": {
     "node": ">=20"
